@@ -3,7 +3,7 @@
 To install dependencies:
 
 ```bash
-bun install
+bun add https://github.com/plan9-lab/bungo.git
 ```
 
 To run:
