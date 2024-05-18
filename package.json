@@ -4,7 +4,9 @@
   "description": "Bun Database Wrapper For Microservices",
   "main": "index.ts",
   "module": "index.ts",
-  "bin": "bin.ts",
+  "bin": {
+    "bungo": "./bin.js"
+  },
   "type": "module",
   "devDependencies": {
     "@types/bun": "latest"
