@@ -1,3 +1,7 @@
+/**
+ * @packageDocumentation
+ * @module Bungo
+ */
 import { Database } from 'bun:sqlite'
 import fs, { mkdirSync } from 'node:fs'
 import { join, parse } from 'node:path'
