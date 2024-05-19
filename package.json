@@ -1,6 +1,6 @@
 {
   "name": "bungo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Bun Database Wrapper For Microservices",
   "main": "index.ts",
   "module": "index.ts",
