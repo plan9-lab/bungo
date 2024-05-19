@@ -1,5 +1,5 @@
 /**
- * @packageDocumentation
+ * Release helper
  * @module Bungo
  */
 import { Database } from 'bun:sqlite'
@@ -39,7 +39,6 @@ export function BongoField(options: { type?: 'TEXT' | 'NUMBER' | 'REAL' | 'BLOB'
 export interface IBongoDoc {
 	_id?: string | any
 	key?: string | any
-	//_ct: number | any
 	[key: string]: any
 }
 
