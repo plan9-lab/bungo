@@ -1,6 +1,6 @@
 {
   "name": "bungo",
-  "version": "0.0.2",
+  "version": "0.1.2",
   "description": "Bun Database Wrapper For Microservices",
   "main": "index.ts",
   "module": "index.ts",
@@ -15,7 +15,9 @@
     "typescript": "^5.0.0"
   },
   "scripts": {
+    "test": "bun test",
     "dev": "bun --watch index.ts",
-    "dev:test": "bun --watch test"
+    "dev:test": "bun --watch test",
+    "release": "npx github:/plan9-lab/bun-releaseme"
   }
 }
