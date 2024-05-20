@@ -2,6 +2,7 @@
 
 # Bun
 bun.lockb
+package-lock.json
 
 # Logs
 

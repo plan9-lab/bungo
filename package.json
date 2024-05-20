@@ -16,6 +16,10 @@
     "test": "bun test",
     "dev": "bun --watch index.ts",
     "dev:test": "bun --watch test",
-    "release": "npx github:/plan9-lab/bun-releaseme --release"
+    "release": "npx github:/plan9-lab/bun-releaseme --release",
+    "bun-releaseme": "bun-releaseme"
+  },
+  "dependencies": {
+    "bun-releaseme": "github:plan9-lab/bun-releaseme#v0.11.2"
   }
 }
